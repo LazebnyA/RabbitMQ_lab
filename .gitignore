@@ -1,0 +1,57 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Dependency directories
+Pipfile.lock
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# mypy
+.mypy_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+
+# Environment variables
+.env
+
+# Django secret key (if applicable)
+*.secrets
+
+# Docker files (optional, if using Docker)
+.docker/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
